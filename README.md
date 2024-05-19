@@ -72,5 +72,4 @@ https://github.com/mezhibo/Vulnerabilities-and-attacks-on-information-systems/bl
 4. Режим сканирования UDP:
 В режиме UDP атакующий отправляет пакеты UDP на целевой хост. Если порт открыт, целевой хост должен отправить пакет ответа. В случае закрытого порта нестандартным поведением является ответ целевого хоста ICMP-пакетом с сообщением, что порт недоступен. Поэтому при сканировании UDP нужно учитывать особенности обработки UDP-пакетов на целевой системе. Процесс занимает намного больше времени по сравнению с предыдущими методами, так как проходит по каждому порту последовательно, и выдает ответ что порт недоступен, а так как всего портов 65536 времени уходит очень много на првоерку каждого порта.
 
-
-![alt text](https://github.com/mezhibo/Vulnerabilities-and-attacks-on-information-systems/blob/d15cfd51957c25ace85af9ff158a3a5bf97466fb/IMG/5.jpg)
+![alt text](https://github.com/mezhibo/Vulnerabilities-and-attacks-on-information-systems/blob/a81661fc2231d88545bd915c64329920ad4607a6/IMG/5.jpg)
